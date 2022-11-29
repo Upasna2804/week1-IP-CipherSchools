@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="thankyou.html" method="GET">
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" placeholder="username" required> <br><br>
+
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="user password" required><br><br>
+        
+        
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" placeholder="user email" required><br><br>
+
+        <p>Select Your Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male"><br>
+        
+        <label for="male">Female</label>
+        <input type="radio" name="gender" id="female" value="Female"><br>
+        
+        <label for="male">Other</label>
+        <input type="radio" name="gender" id="other" value="Other"><br>
+<!-- same value in name attribute makes it possible to select only one option from the given options -->
+        
+
+<label for="age-group">Select your age group</label>
+        <select name="age-group-values" id="age-group">
+            <option value="5-10">5-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-50">20-50</option>
+            <option value="50+">50+</option>
+        </select><br>
+        <input type="submit" id="sign in">
+
+    </form>
+    
+</body>
+</html>
